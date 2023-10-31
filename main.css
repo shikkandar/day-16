@@ -5,3 +5,29 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.anim{
+    animation: color 2s linear  infinite ;
+    font-size: 3rem;
+    
+}
+@keyframes color {
+    0%{
+        color: red;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: cadetblue;
+    }
+    80%{
+        color: crimson;
+    }
+    100%{
+        color: blueviolet;
+    }
+}

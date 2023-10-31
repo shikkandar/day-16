@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     countdown(10, function() {
-        countdownElement.innerText = "Happy Independence Day";
+        countdownElement.innerText = "Happy Independence Day!!!";
+        countdownElement.classList.add("anim")
     });
 });
