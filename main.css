@@ -11,6 +11,10 @@ body{
     font-size: 3rem;
     
 }
+h1{
+    font-size: 20rem;
+    
+}
 @keyframes color {
     0%{
         color: red;
